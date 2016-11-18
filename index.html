@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
 
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	
 	<style>
 		body {
@@ -30,7 +30,7 @@
 				type : "GET",
 				dataType : "JSON",
 				beforeSend : function(){
-					$(".hasil").html("<center> <img src='ajax-loader.gif' alt='loading' /> </center>");
+					$(".hasil").html("<center> <img src='http://www.ajaxload.info/cache/FF/FF/FF/00/00/00/19-0.gif' alt='loading' /> </center>");
 				},
 				success : function(msg){
 					if (msg.status == "error") 
